@@ -3,10 +3,10 @@
 ```go
 
 import (
-        "github.com/Artemy-Mellanox/go-dbg/p"
+        "github.com/Artemy-Mellanox/go-dbg"
 )
 
 func main() {
     ...
-    p.Print("%s %d", str, i)
+    dbg.Print("%s %d", str, i)
 }
